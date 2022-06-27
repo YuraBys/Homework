@@ -8,7 +8,7 @@
 Console.WriteLine("Введите целое 3-х значное число ");
 int x = Convert.ToInt32(Console.ReadLine());
 
-if (x / 100 < 10)
+if (x < 1000 && x > 99)
 {
     int y = x%10;
     Console.WriteLine($"Последняя цифра числа {x} -> {y}");
